@@ -1,0 +1,17 @@
+#title{
+    text-align: center;
+}
+
+#satellitesContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items:center;
+    
+
+
+}
+
+.hide{
+    padding: 10px;
+    display:none;
+}
