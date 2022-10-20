@@ -1,17 +1,82 @@
-#title{
-    text-align: center;
+body{
+  background-image: url(https://www.nasa.gov/sites/default/files/thumbnails/image/gsfc_20171208_archive_e000226_orig.jpg);
+  background-size:cover
 }
+
+#title{
+  font-family: 'Pacifico', cursive;
+  -webkit-text-stroke: 1px White;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 5px 5px 5px;
+}
+
 
 #satellitesContainer{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    align-items:center;
-    
-
-
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items:center;
+  row-gap: 5px;
+  column-gap: 5px;
 }
 
-.hide{
-    padding: 10px;
-    display:none;
+.individualbox{
+  display:block;
+  background-color: rgb(199, 193, 193);
+  border-radius: 10px;
+  background-size:cover;
+  background-position-y: center;
+  border-style: outset;
+  border-width: 6px; 
+  width: 1fr
+}
+
+.individualbox:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.name{
+  font-size: 1vw ;
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+  text-shadow: 3px 3px 3px greenyellow;
+}
+
+.material-symbols-outlined{
+  margin-left: 7px;
+  margin-bottom: 7px;
+  display: block;
+  text-align: center;
+}
+
+.infoBox{
+  background-color: gray;
+  padding: 10px;
+  display:none;
+  border-style: inset;
+  border-width: 6px;
+  border-radius: 10px;
+  width: 1fr;
+}
+
+.pair1{
+  display: block;
+}
+.pair2{
+  display: block;
+}
+.pair3{
+  display: block;
+}
+.pair4{
+  display: block;
+}
+
+.key{
+  color: cornsilk;
+}
+
+.meanMotion{
+  align-items:center
 }
